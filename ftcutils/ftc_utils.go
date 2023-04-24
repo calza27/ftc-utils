@@ -13,10 +13,11 @@ import (
 )
 
 var (
-	REGION             = "ap-southeast-2"
-	DATA_BUCKET        = "fireteam-core-army-data"
-	FACTIONS_FILE_NAME = "factions.json"
-	ARMY_PATH_PARAM    = "army_id"
+	REGION              = "ap-southeast-2"
+	DATA_BUCKET         = "fireteam-core-army-data"
+	FACTIONS_FILE_NAME  = "factions.json"
+	FIRETEAMS_FILE_NAME = "fireteams.json"
+	ARMY_PATH_PARAM     = "army_id"
 )
 
 func GetFileContents(fileName string) (string, error) {
