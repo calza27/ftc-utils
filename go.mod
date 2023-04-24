@@ -1,4 +1,4 @@
-module ftcutils
+module github.com/calza27/ftc-utils
 
 go 1.19
 
