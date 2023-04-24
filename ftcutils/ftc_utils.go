@@ -65,6 +65,10 @@ func BuildResponse(statusCode int, message string) (events.APIGatewayProxyRespon
 	return events.APIGatewayProxyResponse{
 		Body:       message,
 		StatusCode: statusCode,
+		Headers: map[string]string{
+			"Access-Control-Allow-Origin": "*",
+			"content-type":                "application/json",
+		},
 	}, nil
 }
 
