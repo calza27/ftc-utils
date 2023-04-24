@@ -1,4 +1,4 @@
-package ftc-utils
+package ftcutils
 
 import (
 	"encoding/json"
