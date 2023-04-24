@@ -1,4 +1,4 @@
-package FtcUtils
+package github.com/calza27/ftcUtils
 
 import (
 	"encoding/json"
