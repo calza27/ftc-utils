@@ -1,4 +1,4 @@
-module github.com/calza27/ftcUtils
+module github.com/calza27/ftcUtils/github.com/calza27/ftcUtils
 
 go 1.19
 
