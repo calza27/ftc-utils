@@ -35,7 +35,6 @@ func GetFileContents(fileName string) (string, error) {
 	if err != nil {
 		return "", err
 	}
-
 	return string(buf.Bytes()), nil
 }
 
